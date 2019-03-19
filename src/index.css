@@ -1,0 +1,25 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootswatch/cyborg/bootstrap.css";
+@import "~react-toastify/dist/ReactToastify.css";
+
+body{
+    margin:0px;
+    color:white;
+    text-align: center;    
+}
+
+#dom-container{
+    position:relative;
+    top:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.well{
+    border-radius: 0px;
+    margin:2px;
+}
+
+#game-container{
+    display:inline-block;
+}

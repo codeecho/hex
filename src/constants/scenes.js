@@ -1,0 +1,1 @@
+export const BATTLE = 'battle';
