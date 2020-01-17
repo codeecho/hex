@@ -1,0 +1,46 @@
+Use export default { create } to avoid import * as statements
+Flatten unit model - remove character
+Tidy up state
+Basic attack
+Basic attack animation
+Limit to 3 actions
+10 cards
+
+
+Each character has basic attack
+Each character has 10 cards
+Player can select cards up to certain number of points. Empty slots filled with basic attack.
+So you could have a couple of really power attacks and lots of rubbish or more balanced etc.
+3 actions each turn
+Can either move a unit, cast buffs/debuffs, attack
+Attack action must be final action. eg. If used on action 2 you don't get a 3rd action
+Cards can have a before and after symbol. If another card has matching symbol they can be comboed. ie. The next cards before symbol must match the previous cards after symbol
+The most powerful attacks don't have an after symbol so they can't be followed by other attacks
+Can only combo attacks with units on same hex
+Buffs/debuffs affect entire hexes
+Buffs/debuffs last for a certain number of turns
+Ability to delay buff/debuff by a turn?
+Critical hits?
+Front row/back row - different affects. Do/take more damage from front row
+
+Heal
+Physical attacks
+Magic attacks
+Elemental Magic
+Elemental Physical Attack
+Increase/Decrease attack, defense, magic attack, magic defense
+Increase/Decrease elemental resistence
+Sleep/Stone - Can't act
+Silence - Can't cast magic
+Can't move to different hex
+Cure status effects
+Combine buffs/debuffs with attacks
+Pull to front row
+Focus all hex damage on one enemy/ally
+
+
+
+To create an instructional toast at top
+tid = toast.info('Select target', { position: 'top-center', autoClose:false, closeButton: false });
+toast.dismiss(tid)
+toast.isActive(tid)
